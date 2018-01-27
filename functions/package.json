@@ -1,0 +1,28 @@
+{
+  "name": "publicbiz-admin-api",
+  "version": "1.0.0",
+  "description": "Administrative functions to publicbizweb",
+  "scripts": {
+    "serve": "firebase serve --only functions",
+    "shell": "firebase experimental:functions:shell",
+    "start": "sudo npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/leomfelicissimo/publicbiz-admin-api.git"
+  },
+  "author": "Leonardo Felicissimo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leomfelicissimo/publicbiz-admin-api/issues"
+  },
+  "homepage": "https://github.com/leomfelicissimo/publicbiz-admin-api#readme",
+  "dependencies": {
+    "firebase-admin": "~5.4.2",
+    "firebase-functions": "^0.7.1",
+    "request": "^2.83.0"
+  },
+  "private": true
+}
